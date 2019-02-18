@@ -1,0 +1,32 @@
+{
+  "name": "packager-language-level",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "packagr": "node packagr.js",
+    "packagr-json": "ng-packagr -p ng-package.json",
+    "tsc": "node ./node_modules/typescript/bin/tsc",
+    "ngc": "node ./node_modules/@angular/compiler-cli/src/main  -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aekrylov/packager-language-level.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/aekrylov/packager-language-level/issues"
+  },
+  "homepage": "https://github.com/aekrylov/packager-language-level#readme",
+  "devDependencies": {
+    "ng-packagr": "^3.0.6",
+    "typescript": "2.6.1",
+    "@angular/core": "5.2.11",
+    "@angular/common": "5.2.11",
+    "@angular/compiler": "5.2.11",
+    "@angular/compiler-cli": "5.2.11"
+  },
+  "peerDependencies": {
+    "zone.js": "0.8.26"
+  }
+}
